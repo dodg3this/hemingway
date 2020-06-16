@@ -4,6 +4,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [zookeeper-clj "0.9.4"]
+                 [mount "0.1.16"]
 
                  [org.apache.curator/curator-test "2.8.0" :scope "test"]]
   :main ^:skip-aot hemingway.core
